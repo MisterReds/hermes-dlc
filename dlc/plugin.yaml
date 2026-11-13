@@ -1,0 +1,18 @@
+name: dlc
+version: 0.1.0
+description: "Hermes DLC: task triage and planning, a self-improving library of specialist agents (profiles) for Kanban, and local RAG on local embeddings."
+author: "MisterReds"
+provides_tools:
+  - dlc_agent_find
+  - dlc_agent_forge
+  - dlc_agent_list
+  - dlc_agent_learn
+  - dlc_agent_evolve
+  - dlc_agent_retire
+  - dlc_run_record
+  - dlc_retro_pending
+  - dlc_rag_ingest
+  - dlc_rag_search
+provides_hooks:
+  - kanban_task_completed
+  - kanban_task_blocked

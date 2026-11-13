@@ -1,0 +1,8 @@
+# Lets Honcho containers reach Ollama on the host (Linux has no host.docker.internal by default).
+services:
+  api:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+  deriver:
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

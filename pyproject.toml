@@ -1,0 +1,13 @@
+[project]
+name = "hermes-dlc"
+version = "0.1.0"
+description = "Hermes Agent DLC: planning, self-improving specialist agent library, local RAG"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

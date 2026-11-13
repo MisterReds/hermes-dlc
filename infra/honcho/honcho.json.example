@@ -1,0 +1,18 @@
+{
+  "baseUrl": "http://127.0.0.1:8000",
+  "apiKey": "local",
+  "hosts": {
+    "hermes": {
+      "enabled": true,
+      "workspace": "hermes",
+      "aiPeer": "hermes",
+      "peerName": "owner",
+      "recallMode": "hybrid",
+      "writeFrequency": "async",
+      "sessionStrategy": "per-directory",
+      "dialecticCadence": 2,
+      "dialecticDepth": 1,
+      "contextCadence": 1
+    }
+  }
+}
